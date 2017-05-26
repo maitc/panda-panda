@@ -1,5 +1,6 @@
 body{
 	margin: 0;
+	background-color: #3F2727;
 }
 ul{
 	list-style: none;
@@ -7,6 +8,7 @@ ul{
 	padding: 20px;
 	background-color: #E63434;
 	overflow: hidden;
+	position: relative;
 }
 ul li{
 	display: inline-block;
@@ -17,3 +19,32 @@ ul li a{
 	text-align: center;
 	padding: 5px;
 }
+.imgs{
+	background-color: #3F2727;
+}
+.imgs div{
+	display: inline-block;
+}
+.imgs div .imgs-pequenias{
+	float: left;
+	width: 150px;
+	margin: 5px;
+	border: 7px solid #191010;
+}
+/*.eliminar-x{
+	color: red;
+	font-size: 400px;
+	text-align: center;	
+}*/
+.contenedor-texto{
+	background-color: #3F2727;
+	margin: 0;
+	padding: 0;
+}
+#texto-1, #texto-2{
+	display: inline-block;
+	width: 45%;
+	float: left;
+	padding: 5px;
+}
+
